@@ -1,8 +1,6 @@
 ChengCho
 ========
 
-test
-
 TA: Steve
 
 For this project, we will be attempting to evolve democracy! Yes, we will be building an online voting system despite knowing
