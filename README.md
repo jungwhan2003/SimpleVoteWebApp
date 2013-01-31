@@ -1,8 +1,6 @@
 ChengCho
 ========
 
-TA: Steve
-
 For this project, we will be attempting to evolve democracy! Yes, we will be building an online voting system despite knowing
 absolutely nothing about HTML/CSS and JavaScript (vote rigging anyone?). With declining voter turnout and pesky automated
 calls that seek to mislead voters - an easy to deploy and use, probably (not) secure, voting system is needed.
@@ -14,6 +12,10 @@ each candidate, and their inspiring vision, then make up their mind. Of course, 
 displayed in a very pretty interface. While tempting, there will be no secret interface for rigging the votes, though it is
 important to remember the phrase "every man has his price."
 
+The web browser will do nothing more than display the user interface in its various forms, the voting interface, result
+interface, etc. The webserver will have to maintain state, to ensure the integrity of the voting system. The backend will use
+SQL to store the list of voters, what they vote for, and the candidates.
+
 The proposed milestones for this assignment are as follows:
 
 1. Architecture diagram & external library/program use: Feb 11
@@ -22,11 +24,11 @@ The proposed milestones for this assignment are as follows:
 
 3. Framework demo (running application skeleton): March 4
 
-4. Admin pages working: March 11
+4. Admin pages fully designed and more or less functioning: March 18
 
-5. Vote pages working: March 18
+5. Vote pages fully designed and more or less functioning: March 25
 
-6. Working prototype/demo: March 25
+6. Working prototype/demo: April 1
 
 7. Draft documentation: April 1
 
