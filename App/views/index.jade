@@ -1,0 +1,16 @@
+extends layout
+
+block content
+	div.container.login
+		div.niceTitle
+			img(src="images/vote.png",style="max-width:12%")
+			| VoteRight
+		p.login Login or create an account here to manage your VoteRight polls. Need help? Sorry, you're out of luck.
+		form#loginForm(method="POST",action="login")
+			label.control-label.login(for="username") Username 
+			div.controls
+				input#username(type="text")
+			label.control-label.login(for="password") Password 
+			div.controls
+				input#password(type="password")
+			button.btn(type="submit") Continue!

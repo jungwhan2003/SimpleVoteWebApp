@@ -1,0 +1,27 @@
+extends layout
+
+block content
+	div.header
+		div.niceTitle
+			img(src="images/vote.png",style="max-width: 40px")
+			|  VoteRight
+			h5(style="text-align: right") Logged in as blah
+	div.container-fluid
+		div.row-fluid
+			div.sidebar.span2
+				h4 Active Polls
+				| No active polls
+				br
+				h4 Inactive Polls
+				| No inactive polls
+				br
+				h4 Completed Polls
+				a(href="completed") 
+					div.pollTitle Test poll
+					div.pollSubtitle Ended on February 21, 2013
+				br
+				br
+				button.btn Start new poll
+			div.span10
+				h5 Select a poll
+				p Select a poll on the left to get started. To create a new poll, click "Start new poll"
