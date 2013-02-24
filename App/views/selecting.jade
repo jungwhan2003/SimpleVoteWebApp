@@ -1,0 +1,15 @@
+extend layout
+
+block content
+	div.header
+		div.niceTitle
+			img(src="images/vote.png",style="max-width: 40px")
+			|  VoteRight
+			h3(style="text-align: center") 'vote title(for ex: president)' (year)
+			h5(style="text-align: right") Logged in as blah
+	div.submission
+		div.line
+			div(style='color: #F87431; height: 7px;')
+		div.span4
+			p Select one from the list, then press submit
+			button.btn Submit

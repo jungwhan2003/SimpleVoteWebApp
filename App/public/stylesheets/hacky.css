@@ -48,7 +48,7 @@ p.login{
 .header{
 	background-color: #C3D69B;
 	min-height: 75px;
-	max-height: 75px;
+	max-height: 110px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -73,4 +73,19 @@ p.login{
 .pollSubtitle
 {
 	font-size: small;
+}
+
+/**
+* Selecting page CSS
+**/
+
+.submission{
+	padding-top: 450px;
+	padding-left: 10px;
+	padding-right: 30px;
+}
+
+.line{	
+	background-color: #f00;
+	height: 5px;
 }
